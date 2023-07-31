@@ -121,7 +121,8 @@ const Footer = styled.footer`
   background: #55877e;
   height: 80px;
   width: 100%;
-  margin-top: 40px;
+  position: absolute;
+  bottom: 0;
 `;
 
 const ToolBox = styled.div`
