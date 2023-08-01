@@ -23,7 +23,7 @@ const Container = styled.div`
   }
 `;
 const BodyWrapper = styled.div`
-  flex: 1; /* 남은 공간을 채우도록 설정 */
+  flex: 1;
   overflow: auto; /* 스크롤이 있는 경우 내용을 스크롤합니다. */
 `;
 
@@ -37,6 +37,7 @@ const Back = styled.div`
   position: relative;
   margin-left: -90%;
   padding-top: 15px;
+  cursor: pointer;
 `;
 
 const TitleBox = styled.div`
@@ -141,6 +142,7 @@ const Done = styled.button`
   margin: auto;
   margin-top: 68px;
   border: none;
+  cursor: pointer;
 `;
 
 const SignUpDetail = () => {

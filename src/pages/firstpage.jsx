@@ -58,6 +58,7 @@ const Box1 = styled.div`
   justify-content: center;
   align-items: center;
   gap: 10px;
+  cursor: pointer;
 `;
 
 const Logintext = styled.div`
@@ -88,6 +89,7 @@ const Box2 = styled.div`
   justify-content: center;
   align-items: center;
   gap: 10px;
+  cursor: pointer;
 `;
 
 const Jointext = styled.div`
@@ -118,6 +120,7 @@ const Box3 = styled.div`
   justify-content: center;
   align-items: center;
   gap: 10px;
+  cursor: pointer;
 `;
 
 const Nonmemblogintext = styled.div`
@@ -156,8 +159,7 @@ const Firstpage = () => {
   return (
     <Container>
       <BodyWrapper>
-        <Topbar>
-        </Topbar>
+        <Topbar></Topbar>
 
         <Mainimg>
           <img

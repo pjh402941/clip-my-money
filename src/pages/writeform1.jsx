@@ -40,6 +40,7 @@ const BackButton = styled.img`
   position: relative;
   margin-left: -90%;
   padding-top: 15px;
+  cursor: pointer;
 `;
 
 const Body = styled.div`
@@ -83,6 +84,7 @@ const SubmitBox = styled.div`
   border-radius: 6px;
   padding: 16px 2%;
   font-family: Inter;
+  cursor: pointer;
 `;
 const SubmitIcon = styled.img`
   float: left;
@@ -121,7 +123,8 @@ const Footer = styled.footer`
   background: #55877e;
   height: 80px;
   width: 100%;
-  margin-top: 40px;
+  position: absolute;
+  bottom: 0;
 `;
 
 const ToolBox = styled.div`
@@ -259,6 +262,7 @@ const Line0 = styled.img`
 
 const LayoutIcon = styled.img`
   /* LayoutIcon 스타일링 */
+  cursor: pointer;
 `;
 const Writeform1 = () => {
   const navigate = useNavigate();
@@ -271,7 +275,7 @@ const Writeform1 = () => {
   };
 
   const handleSubmitBoxClick = () => {
-    navigate("/save");
+    navigate("/write");
   };
 
   // 날짜를 형식에 맞게 포맷하여 가져오는 함수

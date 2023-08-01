@@ -38,6 +38,7 @@ const Back = styled.div`
   position: relative;
   margin-left: -90%;
   padding-top: 15px;
+  cursor: pointer;
 `;
 
 const TitleBox = styled.div`
@@ -115,6 +116,7 @@ const LoginBox = styled.button`
   border: none;
   font-size: 12px;
   color: #ffffff;
+  cursor: pointer;
 `;
 
 const Join = styled.div`
@@ -126,6 +128,7 @@ const Join = styled.div`
   height: 15px;
   font-size: 12px;
   color: #ffffff;
+  cursor: pointer;
 `;
 
 const Login = () => {

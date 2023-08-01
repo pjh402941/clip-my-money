@@ -38,6 +38,7 @@ const Backbutton = styled.div`
   position: relative;
   margin-left: -90%;
   padding-top: 15px;
+  cursor: pointer;
 `;
 
 const Toptitle = styled.div`
@@ -109,7 +110,7 @@ const Whitebox2 = styled.div`
   height: 70px;
   flex-direction: column;
   justify-content: center;
-
+  cursor: pointer;
   border-radius: 6px;
   background: #fff;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);

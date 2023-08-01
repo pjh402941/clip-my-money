@@ -31,15 +31,16 @@ const BodyWrapper = styled.div`
 `;
 
 const Header = styled.header`
-position: relative;
-height: 46px;
-background: #55877e;
+  position: relative;
+  height: 46px;
+  background: #55877e;
 `;
 
 const BackButton = styled.img`
-position: relative;
-margin-left: -90%;
-padding-top: 15px;
+  position: relative;
+  margin-left: -90%;
+  padding-top: 15px;
+  cursor: pointer;
 `;
 
 const Body = styled.div`
@@ -83,6 +84,7 @@ const SubmitBox = styled.div`
   border-radius: 6px;
   padding: 16px 2%;
   font-family: Inter;
+  cursor: pointer;
 `;
 const SubmitIcon = styled.img`
   float: left;
@@ -172,16 +174,19 @@ const ImgUpload1 = styled.img`
   padding-bottom: 10px;
   overflow: auto;
   height: 72px;
+  cursor: pointer;
 `;
 const ImgUpload2 = styled.img`
   padding-bottom: 10px;
   overflow: auto;
   height: 72px;
+  cursor: pointer;
 `;
 const ImgUpload3 = styled.img`
   padding-bottom: 10px;
   overflow: auto;
   height: 72px;
+  cursor: pointer;
 `;
 const TotalBox = styled.div`
   margin: 0 auto;
@@ -225,6 +230,7 @@ const ToolBox = styled.div`
 
 const LayoutIcon = styled.img`
   /* LayoutIcon 스타일링 */
+  cursor: pointer;
 `;
 
 const Write = () => {

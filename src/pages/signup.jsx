@@ -37,6 +37,7 @@ const Back = styled.div`
   position: relative;
   margin-left: -90%;
   padding-top: 15px;
+  cursor: pointer;
 `;
 
 const TitleBox = styled.div`
@@ -95,6 +96,7 @@ const Agree = styled.div`
 `;
 
 const Check = styled.input`
+  cursor: pointer;
   position: relative;
   margin-left: -266px;
   margin-top: 10.5px;
@@ -146,6 +148,7 @@ const AllAgree = styled.div`
 `;
 
 const Check2 = styled.input`
+  cursor: pointer;
   position: relative;
   appearance: none;
   margin-left: -266px;
@@ -185,6 +188,7 @@ const AgreeText2 = styled.div`
 `;
 
 const Done = styled.button`
+  cursor: pointer;
   position: relative;
   width: 145px;
   height: 35px;
