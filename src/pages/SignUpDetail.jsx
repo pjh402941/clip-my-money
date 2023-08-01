@@ -37,6 +37,7 @@ const Back = styled.div`
   position: relative;
   margin-left: -90%;
   padding-top: 15px;
+  cursor: pointer;
 `;
 
 const TitleBox = styled.div`
@@ -141,6 +142,7 @@ const Done = styled.button`
   margin: auto;
   margin-top: 68px;
   border: none;
+  cursor: pointer;
 `;
 
 const SignUpDetail = () => {

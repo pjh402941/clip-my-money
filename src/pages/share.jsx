@@ -37,6 +37,7 @@ const BackButton = styled.img`
   position: relative;
   margin-left: -90%;
   padding-top: 15px;
+  cursor: pointer;
 `;
 
 const Body = styled.div`
