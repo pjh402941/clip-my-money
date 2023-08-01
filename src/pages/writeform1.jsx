@@ -40,6 +40,7 @@ const BackButton = styled.img`
   position: relative;
   margin-left: -90%;
   padding-top: 15px;
+  cursor: pointer;
 `;
 
 const Body = styled.div`
@@ -83,6 +84,7 @@ const SubmitBox = styled.div`
   border-radius: 6px;
   padding: 16px 2%;
   font-family: Inter;
+  cursor: pointer;
 `;
 const SubmitIcon = styled.img`
   float: left;
@@ -259,6 +261,7 @@ const Line0 = styled.img`
 
 const LayoutIcon = styled.img`
   /* LayoutIcon 스타일링 */
+  cursor: pointer;
 `;
 const Writeform1 = () => {
   const navigate = useNavigate();

@@ -40,6 +40,7 @@ const Backbutton = styled.div`
   position: relative;
   margin-left: -90%;
   padding-top: 15px;
+  cursor: pointer;
 `;
 
 const Topclip = styled.div`
@@ -119,6 +120,7 @@ const SelectBtn = styled.button`
   background: #55877e;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
   border: none;
+  cursor: pointer;
 `;
 
 const SelectText = styled.div`
